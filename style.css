@@ -75,7 +75,69 @@ ul {
   li a:hover {
     background-color: #111;
   }
-  style
-  head
-  body
+ 
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
   
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+ 
+  
+img {
+    vertical-align: middle;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+
+
+.main {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
