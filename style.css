@@ -145,3 +145,23 @@ img {
     background-color: white;
     padding: 10px;
   }
+
+  button {
+    background-color: #000000;
+    border: solid;
+    border-radius: 5px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    display: flex;
+    display: grid;
+  }
+  
+  .button1 {
+    border-radius: 20px;}
+  .button2 {
+    border-radius: 20px;}
+  .button3 {
+    border-radius: 20px;}
