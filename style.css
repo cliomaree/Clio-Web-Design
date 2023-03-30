@@ -56,6 +56,10 @@ p {
    padding: 10px 
 }
 
+p img {
+    float: left;
+}
+
 ul {
     list-style-type: none;
     margin: -20px;
