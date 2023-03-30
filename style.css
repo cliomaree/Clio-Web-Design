@@ -68,13 +68,20 @@ ul {
     background-color: #000000;
   }
   
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
   li {
-    float: left;
+    float: right;
   }
   
   li a {
     display: block;
     color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -98,7 +105,8 @@ ul {
   }
   
   div.gallery img {
-    width: 100%;
+    width: 320px;
+    height: 320px;
     height: auto;
   }
   
@@ -111,7 +119,7 @@ ul {
 img {
     vertical-align: middle;
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 4px solid #000000;
     float: left;
     width: 180px;
   }
@@ -178,6 +186,7 @@ img {
 .social-footer {
     padding: 1rem;
     margin: -20px;
+    margin-top: 10px;
     background: #000000;
     display: -webkit-flex;
     display: -ms-flexbox;
