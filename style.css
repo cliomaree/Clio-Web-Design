@@ -24,22 +24,26 @@ html {
     background-color: #fff;
   }
   
-h1, .h1 {
-  font-size: 2rem;
+h1 {
+  font-size: 1.5rem;
   text-align: center;
+  font-weight: normal;
 }
 
-h2, .h2 {
-  font-size: 2rem;
+h2 {
+  font-size: 1rem;
   text-align: center;
+  font-weight: normal;
 }
 
-h3, .h3 {
+h3 {
   font-size: 1.75rem;
+  font-weight: normal;
+  padding: 0%;
 }
 
 p {
-   padding: 10px 
+   padding: 0%
 }
 
 p img {
@@ -47,9 +51,9 @@ p img {
 }
 
 section {
-    padding-bottom: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-bottom: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
 }
 
 ul {
@@ -116,9 +120,7 @@ img {
     margin: 5px;
     border: 2px solid #000000;
     float: left;
-    width: 180px;
   }
-
 
 .main {
     max-width: 900px;
@@ -155,27 +157,45 @@ img {
     padding: 10px;
   }
 
-  button {
-    background-color: #000000;
-    font-family: 'Courier New', Courier, monospace;
-    border: solid;
-    border-radius: 10px;
-    border-color: white;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 1rem;
-    margin: auto;
-    display: flex;
-    display: grid;
-  }
-  
-  .button1 {
-    border-radius: 20px;}
-  .button2 {
-    border-radius: 20px;}
-  .button3 {
-    border-radius: 20px;}
+    .button {
+        border-radius: 4px;
+        background-color: #000000;
+        border-radius: 30px;
+        border-color: white;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2rem;
+        margin: auto;
+        display: flex;
+        display: grid;
+        }
+      
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 25px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
 
 
 .social-footer {
